@@ -23,4 +23,24 @@ This project explores how Reddit users discuss the Uyghur crisis through NLP tec
 ## 📈 Insights
 - Subreddits show polarized framing (e.g., r/Sino = positive, r/humanrights = negative)
 - Core topics include genocide, international relations, meta-moderation, and religion
-- Posts are mostly neu
+- Posts are mostly neutral; comments show higher emotional polarity
+- Temporal patterns match major media cycles (2017–2022)
+
+---
+
+## 🛠 Technologies Used
+- Python (Pandas, NumPy)
+- NLP: NLTK, SpaCy, TextBlob, Hugging Face Transformers
+- Topic Modeling: Scikit-learn (TF-IDF, LDA, NMF)
+- Visualization: Matplotlib, Seaborn, WordCloud, t-SNE
+
+---
+
+## 📁 Files
+- `notebooks/reddit_uyghur_sentiment_analysis_clean.ipynb` — full analysis notebook
+- `report/reddit_uyghur__sentiment_report.pdf` — standalone research report
+
+---
+
+## 📜 License
+MIT 
